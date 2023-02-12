@@ -1,0 +1,26 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+    box-shadow: 2px 2px 1px black;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* Navbar class that will stick to the top when page is scrolled down */
+.navbar {
+    position: sticky;
+    top: 0px;
+}
